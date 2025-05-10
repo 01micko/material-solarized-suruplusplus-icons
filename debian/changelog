@@ -1,0 +1,7 @@
+material-solarized-suruplusplus-icons (12.6-1) carbon; urgency=medium
+
+  * Initial release.
+  * Import Material-Solarized-Suru++ directory from BunsenLabs.
+     https://github.com/BunsenLabs/material-solarized-suruplusplus-icon-theme
+
+ -- Mick Amadio <01micko@gmx.com>  Sun, 11 May 2025 07:28:05 +2000

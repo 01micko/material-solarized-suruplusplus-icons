@@ -1,0 +1,76 @@
+Source: material-solarized-suruplusplus-icons
+Section: x11
+Priority: optional
+Maintainer: Mick Amadio <01micko@gmx.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1.0
+Rules-Requires-Root: no
+Homepage: https://github.com/01micko/material-solarized-suruplusplus-icons
+Vcs-Git: https://github.com/01micko/material-solarized-suruplusplus-icons.git
+Vcs-Browser: https://github.com/01micko/material-solarized-suruplusplus-icons
+
+Package: material-solarized-suruplusplus-common
+Architecture: all
+Depends: ${misc:Depends}, librsvg2-common
+Recommends: gtk-update-icon-cache
+Description: Material-Solarized-common-icons set
+ From rtl88-Themes, this is the Material-Solarized-Suru-icons set
+ from the Material-Solarized branch, packaged for BunsenLabs.
+ This is the common set and requires another flavour.
+ .
+ The source package is named material-solarized-suruplusplus-icons
+ because of restrictions by GitHub on characters in repository names.
+ .
+ Upstream repositories:
+ https://github.com/rtlewis88/rtl88-Themes/tree/Material-Solarized
+ https://github.com/BunsenLabs/material-solarized-suruplusplus-icon-theme
+
+Package: material-solarized-suruplusplus-icons-bark
+Architecture: all
+Depends: ${misc:Depends}, librsvg2-common, material-solarized-suruplusplus-common
+Recommends: gtk-update-icon-cache
+Description: Material-Solarized-bark-icons set
+ This is the bark flavour set.
+ .
+ The source package is named material-solarized-suruplusplus-icons
+ because of restrictions by GitHub on characters in repository names.
+
+Package: material-solarized-suruplusplus-icons-sage
+Architecture: all
+Depends: ${misc:Depends}, librsvg2-common, material-solarized-suruplusplus-common
+Recommends: gtk-update-icon-cache
+Description: Material-Solarized-sage-icons set
+ This is the sage flavour set.
+ .
+ The source package is named material-solarized-suruplusplus-icons
+ because of restrictions by GitHub on characters in repository names.
+
+Package: material-solarized-suruplusplus-icons-oomox
+Architecture: all
+Depends: ${misc:Depends}, librsvg2-common, material-solarized-suruplusplus-common
+Recommends: gtk-update-icon-cache
+Description: Material-Solarized-oomox-icons set
+ This is the oomox flavour set.
+ .
+ The source package is named material-solarized-suruplusplus-icons
+ because of restrictions by GitHub on characters in repository names.
+
+Package: material-solarized-suruplusplus-icons-telinkrin
+Architecture: all
+Depends: ${misc:Depends}, librsvg2-common, material-solarized-suruplusplus-common
+Recommends: gtk-update-icon-cache
+Description: Material-Solarized-telinkrin-icons set
+ This is the telinkrin flavour set.
+ .
+ The source package is named material-solarized-suruplusplus-icons
+ because of restrictions by GitHub on characters in repository names.
+
+Package: material-solarized-suruplusplus-icons-grey
+Architecture: all
+Depends: ${misc:Depends}, librsvg2-common, material-solarized-suruplusplus-common
+Recommends: gtk-update-icon-cache
+Description: Material-Solarized-grey-icons set
+ This is the grey flavour set.
+ .
+ The source package is named material-solarized-suruplusplus-icons
+ because of restrictions by GitHub on characters in repository names.
